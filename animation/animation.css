@@ -1,0 +1,19 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #f00;
+    animation: jun 5s  infinite alternate;
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    animation: jun 5s  infinite alternate;
+}
+
+@keyframes jun{
+    0%{border-radius: 50%;}
+    100%{border-radius: 50%;
+        margin-left: 800px;}
+}
